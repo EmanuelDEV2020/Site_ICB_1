@@ -1,0 +1,170 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#atos6_news_load_more {
+    display: none;
+}
+
+.atos6-loader {
+    width: 100%;
+    text-align: center;
+}
+
+.atos6-news-container .col-sm-12{
+    margin-bottom: 30px;
+}
+
+.atos6-news-entry{
+    height: 100%;
+}
+
+.atos6-news-thumbnail img{
+     max-width: 100%;
+     height: auto;;
+ }
+
+.atos6-news-entry h3{
+    margin: 15px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn-atos6-news .spinner-border{
+    display: none;
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.atos6-news-categories ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.atos6-news-categories li{
+    display: inline-block;
+}
+
+.atos6-news-categories li a{
+    display: block;
+    margin-right: 15px;
+    padding: 10px 0;
+}
+
+.atos6-news-carousel-contanier .atos6-news-entry {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+@media (min-width: 1025px){
+    .atos6-news-carousel-contanier .atos6-news-entry {
+        padding-bottom: 55px;
+    }
+    .atos6-news-carousel-contanier .atos6-news-entry .btn{
+        margin-top: 0;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+    }
+}
+
+.atos6-news-carousel-contanier .atos6-news-entry time{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.atos6-news-carousel-contanier .atos6-news-entry .atos6-news-thumbnail{
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.atos6-news-entry .atos6-news-content{
+    padding: 20px;
+}
+
+.atos6-news-carousel-contanier .atos6-news-entry h3{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.atos6-news-carousel-contanier .atos6-news-entry .btn{
+    margin-top: 20px;
+}
+
+.atos6-news-container .atos6-news-entry {
+    background: #f1f1f1;
+}
+
+.atos6-news-highlighted {
+    display: none;
+}
+
+.at6-select {
+    width: 100%;
+}
+
+.atos6-news-last-news {
+    margin-top: 30px;
+}
+
+.atos6-news-last-news h4 {
+    margin-bottom: 30px;
+}
+
+.atos6-news-last-news .col-sm-12 {
+    margin-bottom: 30px;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+.slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+}
+
+@media (min-width: 800px) {
+    .atos6-news-carousel-contanier .atos6-news-entry {
+        margin: 0 15px;
+    }
+    .atos6-news-carousel-contanier .atos6-news-entry .atos6-news-thumbnail{
+        height: 200px;
+    }
+    .atos6-news-container .col-sm-12{
+        margin-bottom: 60px;
+    }
+    .atos6-news-container .atos6-news-highlighted .col-sm-12{
+        margin-bottom: 0;
+    }
+    .atos6-news-highlighted {
+        display: block;
+    }
+    .at6-select {
+        width: 250px;
+    }
+    .atos6-news-last-news {
+        margin-top: 60px;
+    }
+    .atos6-news-last-news h4 {
+        margin-bottom: 60px;
+    }
+    .atos6-news-last-news .col-sm-12 {
+        margin-bottom: 0;
+    } 
+}
